@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <!-- Navigation Bar -->
+  
     <nav>
         <h2 class="logo">EMS</h2>
         <ul>
@@ -18,10 +18,48 @@
         </ul>
     </nav>
 
-    <div class="container">
-        <h1>View Contacts</h1>
-        <p>This page will display employee contacts.</p>
+    <!-- Table Section -->
+    <div class="table-container">
+        <h1>Employee Contacts</h1>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Department</th>
+                <th>Actions</th>
+            </tr>
+
+            <tr>
+                <td>John Doe</td>
+                <td>john@email.com</td>
+                <td>0712345678</td>
+                <td>IT</td>
+                <td>
+                    <button onclick="viewDetails()">Details</button>
+                    <button onclick="editContact()">Edit</button>
+                    <button onclick="deleteContact()">Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Jane Smith</td>
+                <td>jane@email.com</td>
+                <td>0798765432</td>
+                <td>HR</td>
+                <td>
+                    <button onclick="viewDetails()">Details</button>
+                    <button onclick="editContact()">Edit</button>
+                    <button onclick="deleteContact()">Delete</button>
+                </td>
+            </tr>
+
+        </table>
     </div>
+
+  
+    <script src="main.js"></script>
 
 </body>
 </html>

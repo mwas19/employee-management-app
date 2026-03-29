@@ -1,11 +1,11 @@
-
+/* GENERAL */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
 
-
+/* NAVBAR */
 nav {
     background-color: #2c3e50;
     color: white;
@@ -35,7 +35,7 @@ nav ul li a:hover {
     color: #3498db;
 }
 
-/* Home Content */
+/* HOME PAGE */
 .container {
     text-align: center;
     margin-top: 120px;
@@ -44,6 +44,7 @@ nav ul li a:hover {
 .container h1 {
     font-size: 40px;
     color: #2c3e50;
+    margin-bottom: 20px;
 }
 
 .container p {
@@ -51,22 +52,22 @@ nav ul li a:hover {
     color: #555;
 }
 
+/* FORM */
 .form-container {
     width: 40%;
     margin: 50px auto;
     background: white;
     padding: 30px;
     border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* Labels */
 form label {
     display: block;
     margin-top: 10px;
     font-weight: bold;
 }
 
-/* Inputs */
 form input {
     width: 100%;
     padding: 10px;
@@ -75,7 +76,6 @@ form input {
     border-radius: 5px;
 }
 
-/* Button */
 form button {
     margin-top: 20px;
     width: 100%;
@@ -87,44 +87,56 @@ form button {
     cursor: pointer;
 }
 
+/* BUTTON HOVER */
 form button:hover {
     background: #2980b9;
+    opacity: 0.9;
 }
-/* Table Container */
+
+/* TABLE */
 .table-container {
     width: 80%;
     margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
-/* Header */
+/* TABLE HEADER */
 th {
     background-color: #2c3e50;
     color: white;
     padding: 12px;
 }
 
-/* Cells */
+/* TABLE CELLS */
 td {
     padding: 10px;
     border: 1px solid #ccc;
     text-align: center;
 }
 
-/* Buttons */
+/* TABLE ROW HOVER */
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* BUTTONS */
 button {
     padding: 6px 10px;
     margin: 2px;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
 }
 
-/* Button Colors */
+/* BUTTON COLORS */
 button:nth-child(1) {
     background-color: #2ecc71;
     color: white;
@@ -138,4 +150,9 @@ button:nth-child(2) {
 button:nth-child(3) {
     background-color: #e74c3c;
     color: white;
+}
+
+/* BUTTON HOVER EFFECT */
+button:hover {
+    opacity: 0.8;
 }
